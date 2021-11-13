@@ -1,8 +1,9 @@
 import unittest
 
 
-def add(a,b):
+def add(a, b):
     return a+b
+
 
 class TestAdd(unittest.TestCase):
     def testaddfunc(self):
